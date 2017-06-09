@@ -38,7 +38,7 @@ namespace Solomon_Bot.Controllers
                         var newMembers = update.MembersAdded.Where(x => x.Id != activity.Recipient.Id).ToList();
                         foreach (var newMember in newMembers)
                         {
-                            var reply = activity.CreateReply($"Welcome {newMember.Name}... My name is Solomon!");
+                            var reply = activity.CreateReply($"Welcome to Foo Bar Bot {newMember.Name}! (:");
                             await client.Conversations.ReplyToActivityAsync(reply);
                         }
                     }
