@@ -28,6 +28,31 @@ namespace Android_App
 		{
 		}
 		
+		public partial class Main
+		{
+			
+			// aapt resource value: 0x7f050002
+			public const int botText = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int btnTalk = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int errText = 2131034115;
+			
+			// aapt resource value: 0x7f050000
+			public const int linearLayout1 = 2131034112;
+			
+			static Main()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Main()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -57,22 +82,6 @@ namespace Android_App
 			}
 		}
 		
-		public partial class Id
-		{
-			
-			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
-			
-			static Id()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Id()
-			{
-			}
-		}
-		
 		public partial class Layout
 		{
 			
@@ -92,11 +101,8 @@ namespace Android_App
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
-			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int ApplicationName = 2130968576;
 			
 			static String()
 			{
