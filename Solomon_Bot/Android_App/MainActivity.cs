@@ -15,7 +15,7 @@ namespace Android_App
     public class MainActivity : Activity
     {
         const string DL_SECRET = "itWhFDgDEpg.cwA.dr0.DtqD39aMRUzFnwplhP_tHWtbMEmYC5sY2axq0pb9Z0Y";
-        const string DL_ID = "FooBarBot";
+        const string BOT_ID = "FooBarBot";
         const string MSFT_APP_ID = "49819cfc-f896-4d98-8eee-9c2229ff2ee1";
         const string MSFT_APP_PWD = "mSpCf5gtNbCtW8eybB24j5C";
         const string FROM_USER = "Default User";
