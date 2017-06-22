@@ -70,7 +70,7 @@ namespace Android_App
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int Bot = 2130837504;
 			
 			static Drawable()
 			{

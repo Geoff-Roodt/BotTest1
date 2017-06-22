@@ -11,7 +11,7 @@ using Activity = Android.App.Activity;
 
 namespace Android_App
 {
-    [Activity(Label = "Bot1", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Bot1", MainLauncher = true, Icon = "@drawable/Bot")]
     public class MainActivity : Activity
     {
         const string DL_SECRET = "itWhFDgDEpg.cwA.dr0.DtqD39aMRUzFnwplhP_tHWtbMEmYC5sY2axq0pb9Z0Y";
